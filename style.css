@@ -1,0 +1,168 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+ body{
+    background-image: linear-gradient(45deg,#5dc2ee,
+    #024379);
+    height: 100vh;
+   
+  }
+  
+  .interface{
+    max-width: 1280px;
+    margin: 0 auto;
+  
+  }
+  .flex{
+  display: flex;
+  }
+  
+  .btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+   font-weight: 600;
+   background-color: #ffffff;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  /* ESTILO DO CABEÇALHO */
+  header{
+    padding: 40px 4%;
+  }
+  header> .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    transition: .2s;
+    font-size: 20px;
+  }
+  
+  header a:hover{
+  color: #ffffff;
+  transform: scale(1.20);
+  
+  }
+  header nav ul{
+  list-style-type: none;
+  }
+  
+  header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+      }
+  .btn-contato button:hover{
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  transform: scale(1.55s);
+  }
+  /* ESTILO DO TOPO DO SITE */
+  
+  section .topo-do-site{
+  padding: 40px 4%;
+  
+  }
+  section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  }
+  .topo-do-site h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  line-height: 40px;
+  color: #ffffff;
+  }
+  .topo-do-site .txt-topo-site h1 span{
+  color: #ffffff;
+  font-size: 84px;
+  }
+  .topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+  .semi-fim h1{
+    gap: 20px 20;
+    padding: 199px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+  color: #ffffff;
+  }
+  /* Estilo do formulario */
+  section.formulario h1{
+  padding: 80px 4%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 50px;
+  }
+  section.formulario {
+    padding: 80px 4%;
+    }
+  section.formulario span{
+    color: #024379;
+  }
+  form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  form input,form textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    width: 100%;
+    background-color: rgba(43, 42, 42, 0.747);
+    outline: none;
+  font-size: 15px;
+  color: white;
+  }
+  form textarea{
+    resize: none;
+    max-height: 200px;
+  }
+  form .btn-enviar{
+    margin-top: 10px;
+    text-align: center;
+   
+  }
+  form .btn-enviar input{
+    width: 120px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 700;
+  }
+  form .btn-enviar  button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 255, 255);
+    transform: scale(1.55s);
+    }
+  
+  .topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0px ;
+    font-family: sans-serif;
+  }
+  @keyframes flutuar{
+    0%{
+      top: 0;
+    }
+    100%{
+      top: 30px;
+  
+    }
+  }
