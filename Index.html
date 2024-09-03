@@ -90,13 +90,15 @@
                 <H1 class="titulo">Agende Seu <span>Exame</span></H1>
 
                 <form action="">
-                    <input type="text" placeholder="Seu Nome" required>
-                    <input type="number" name="" id="" placeholder="numero de telefone" required>
-                    <input type="time" placeholder="Horario">
-                    <input type="date">
-                    <textarea name="" placeholder="Sua mensagem" required=""></textarea>
+                    <input id="name" type="text" placeholder="Seu Nome" required>
+                    <input id="number" type="number" name="" id="" placeholder="numero de telefone" required>
+                    <input id="time" type="time" placeholder="Horario">
+                    <input id="dt" type="date">
+                    <textarea id="text" name="" placeholder="Sua mensagem" required=""></textarea>
                     <div class="btn-enviar">
-                        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                        <div class="btn-enviar">
+                            <input id="btn-send" type="submit" value="ENVIAR">
+                        </div>
                     </div>
 
 
@@ -104,6 +106,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
-
 </html>
