@@ -9,8 +9,8 @@ const button = document.getElementById('btn-send');
 button.addEventListener('click', (e) => {
     e.preventDefault();
 
-    const text = `Olá, meu nome é ${name.value}, gostaria de agendar um horário para ${time.value} no dia ${date.value}.`;
-    const phone = '5585991261036';
+    const text = `Olá, meu nome é ${name.value}, gostaria de agendar um horário para ${time.value} no dia ${date.value} Estaria disponivel? .` ;
+    const phone = '558585603558';
 
     const wpp_url = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(text)}`;
 
